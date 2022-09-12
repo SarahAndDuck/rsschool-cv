@@ -26,3 +26,13 @@ I am taking in __The Rolling Scopes__ JavaScript/Front-end course
 ----
 ## _Education_
 [Tomsk State University of Control Systems and Radioelectronics](https://tusur.ru/en)
+
+----
+## _Curses_
++ youtube channels:
+  * [FreelancerLifeStyle](https://www.youtube.com/c/FreelancerLifeStyle)
+  *  [GLO Academy](https://glo.academy)
++ online courses:
+  * [online javascript tutorial](https://learn.javascript.ru/)
+  * [htmlacademy](https://htmlacademy.ru)
+  * [Rubius academy](https://academy.rubius.com/) 
