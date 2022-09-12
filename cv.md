@@ -23,3 +23,6 @@ I am taking in __The Rolling Scopes__ JavaScript/Front-end course
 + Responsive and Mobile Design
 + UX/Usability
 + Figma
+----
+## _Education_
+[Tomsk State University of Control Systems and Radioelectronics](https://tusur.ru/en)
