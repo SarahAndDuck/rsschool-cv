@@ -35,4 +35,9 @@ I am taking in __The Rolling Scopes__ JavaScript/Front-end course
 + online courses:
   * [online javascript tutorial](https://learn.javascript.ru/)
   * [htmlacademy](https://htmlacademy.ru)
-  * [Rubius academy](https://academy.rubius.com/) 
+  * [Rubius academy](https://academy.rubius.com/)
+
+----
+## _Languages_
++ Russian - native speaker
++ English - A2  
