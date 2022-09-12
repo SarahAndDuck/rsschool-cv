@@ -11,3 +11,15 @@ I am taking in __The Rolling Scopes__ JavaScript/Front-end course
  to gain the knowledge and experience to work as
  a Junior JavaScript/Front-end Software Engineer.
  
+ -----
+## _Skils_
++ HTML
++ CSS
++ Preprocessor SCSS
++ JavaScript
++ React
++ Version Control/Git
++ Browser Developer tools
++ Responsive and Mobile Design
++ UX/Usability
++ Figma
