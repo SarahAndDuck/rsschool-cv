@@ -5,6 +5,7 @@
 * __Phone:__ +7-952-163-0774
 * __Email:__ ratkevirina@gmail.ru
 * __GitHub:__ [SarahAndDuck](https://github.com/SarahAndDuck)
+* __Discord__ [Irin (@SarahAndDuck)](discord.com)
 ----
 ## _About me_
 I am taking in __The Rolling Scopes__ JavaScript/Front-end course
