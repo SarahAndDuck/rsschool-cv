@@ -25,6 +25,32 @@ I am taking in __The Rolling Scopes__ JavaScript/Front-end course
 + UX/Usability
 + Figma
 ----
+## _Code example_:
+
+__Task__: Implement an intersection function that takes two arrays of numbers and returns an array of numbers present in the first and second arrays.
+    
+    const intersection = (...restParam) => {
+      if (restParam.length < 2) {
+        throw new Error('INVALID_ARGUMENTS_COUNT');
+      }
+    
+      for (let argument of restParam) {
+        if (!Array.isArray(argument)) {
+          throw new Error('INVALID_ARGUMENT');
+        }
+        for (let item of argument) {
+          if (!(typeof item === 'number')) {
+            throw new Error('INVALID_ELEMENT_IN_ARRAY');
+          }
+        }
+      }
+    
+      var resultFilter = restParam[0].filter((x) => restParam[1].includes(x));
+      var result = resultFilter.filter((val, ind, arr) => arr.indexOf(val) === ind);
+      return result;
+    };
+
+----
 ## _Education_
 [Tomsk State University of Control Systems and Radioelectronics](https://tusur.ru/en)
 
