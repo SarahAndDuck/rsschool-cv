@@ -1,19 +1,19 @@
 # _Ratkevich Irina_
 ----
-## _Contacts_
+## _Contacts:_
 * __Location:__ Tomsk, Russia
 * __Phone:__ +7-952-163-0774
 * __Email:__ ratkevirina@gmail.ru
 * __GitHub:__ [SarahAndDuck](https://github.com/SarahAndDuck)
 * __Discord:__ Irin (@SarahAndDuck)
 ----
-## _About me_
+## _About me:_
 I am taking in __The Rolling Scopes__ JavaScript/Front-end course
  to gain the knowledge and experience to work as
  a Junior JavaScript/Front-end Software Engineer.
  
  -----
-## _Skils_
+## _Skils:_
 + HTML
 + CSS
 + Preprocessor SCSS
@@ -25,7 +25,7 @@ I am taking in __The Rolling Scopes__ JavaScript/Front-end course
 + UX/Usability
 + Figma
 ----
-## _Code example_:
+## _Code example:_
 
 __Task__: Implement an intersection function that takes two arrays of numbers and returns an array of numbers present in the first and second arrays.
     
@@ -51,11 +51,11 @@ __Task__: Implement an intersection function that takes two arrays of numbers an
     };
 
 ----
-## _Education_
+## _Education:_
 [Tomsk State University of Control Systems and Radioelectronics](https://tusur.ru/en)
 
 ----
-## _Curses_
+## _Curses:_
 + youtube channels:
   * [FreelancerLifeStyle](https://www.youtube.com/c/FreelancerLifeStyle)
   *  [GLO Academy](https://glo.academy)
@@ -65,6 +65,6 @@ __Task__: Implement an intersection function that takes two arrays of numbers an
   * [Rubius academy](https://academy.rubius.com/)
 
 ----
-## _Languages_
+## _Languages:_
 + Russian - native speaker
 + English - A2  
