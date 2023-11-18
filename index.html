@@ -95,7 +95,7 @@
             <div class="code__content">
               <div class="paper"></div>
               <pre>
-                <code>const intersection = (...restParam) => {
+                <code>const intersection = (...restParam) =&gt; {
                   if (restParam.length &lt; 2) {
                     throw new Error('INVALID_ARGUMENTS_COUNT');
                   }
@@ -111,8 +111,8 @@
                     }
                   }
                 
-                  var resultFilter = restParam[0].filter((x) => restParam[1].includes(x));
-                  var result = resultFilter.filter((val, ind, arr) => arr.indexOf(val) === ind);
+                  var resultFilter = restParam[0].filter((x) =&gt; restParam[1].includes(x));
+                  var result = resultFilter.filter((val, ind, arr) =&gt; arr.indexOf(val) === ind);
                   return result;
                 };</code>
               </pre>
