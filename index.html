@@ -1,9 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>CV</title>
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <h1 class="visually-hidden">CV Ratkevich</h1>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li><a href="#about">About</a></li>
+              <li><a href="#skils">Skils</a></li>
+              <li><a href="#aducation">Aducation</a></li>
+              <li><a href="#curses">Curses</a></li>
+              <li><a href="#progects">Progects</a></li>
+            </ul>
+          </nav>
+          <div class="header__body">
+            <div class="header__avatar">
+              <img
+                src="./img/avatar.jpg"
+                height="300"
+                width="300"
+                alt="avatar"
+              />
+            </div>
+            <div class="header__content">
+              <h2 class="header__title">Ratkevich <span>Irina</span></h2>
+              <p class="header__subtitle">Front-end web developer (Beginner)</p>
+            </div>
+          </div>
+          <ul class="header__contacts">
+            <li class="flare"></li>
+            <li class="header__item item-header">
+              <h3 class="item-header__title">Location</h3>
+              <p class="item-header__text">Tomsk, Russia</p>
+            </li>
+            <li class="header__item item-header">
+              <h3 class="item-header__title">Phone number</h3>
+              <p class="item-header__text">(+7)952-163-07-74</p>
+            </li>
+            <li class="header__item item-header">
+              <h3 class="item-header__title">Discord</h3>
+              <a href="https://discord.com/" class="item-header__text"
+                >Irin (@SarahAndDuck)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+      <main class="main">
+        <section id="about" class="section about">
+          <div class="container">
+            <h2 class="about__title title">About me</h2>
+            <p class="about__content">
+              I am taking in The Rolling Scopes JavaScript/Front-end course to
+              gain the knowledge and experience to work as a Junior
+              JavaScript/Front-end Software Engineer.
+            </p>
+          </div>
+        </section>
+        <section id="skils" class="section skils">
+          <div class="container">
+            <h2 class="skils__title title">Skils</h2>
+            <ul class="skils__list list">
+              <li class="skils__item">&#10003; HTML</li>
+              <li class="skils__item">&#10003; CSS</li>
+              <li class="skils__item">&#10003; Preprocessor SCSS</li>
+              <li class="skils__item">&#10003; JavaScript</li>
+              <li class="skils__item">&#10003; React</li>
+              <li class="skils__item">&#10003; Version Control/Git</li>
+              <li class="skils__item">&#10003; Browser Developer tools</li>
+              <li class="skils__item">&#10003; Responsive and Mobile Design</li>
+              <li class="skils__item">&#10003; UX/Usability</li>
+              <li class="skils__item">&#10003; Figma</li>
+            </ul>
+          </div>
+        </section>
+        <section class="section code">
+          <div class="container">
+            <h2 class="code__title title">Code example</h2>
+            <div class="code__content">
+              <div class="paper"></div>
+              <pre>
+                <code>const intersection = (...restParam) =>; {
+                  if (restParam.length &lt; 2) {
+                    throw new Error('INVALID_ARGUMENTS_COUNT');
+                  }
+                
+                  for (let argument of restParam) {
+                    if (!Array.isArray(argument)) {
+                      throw new Error('INVALID_ARGUMENT');
+                    }
+                    for (let item of argument) {
+                      if (!(typeof item === 'number')) {
+                        throw new Error('INVALID_ELEMENT_IN_ARRAY');
+                      }
+                    }
+                  }
+                  var resultFilter = restParam[0].filter((x) => restParam[1].includes(x));
+                  var result = resultFilter.filter((val, ind, arr) => arr.indexOf(val) === ind);
+                  return result;
+                };</code>
+              </pre>
+            </div>
+          </div>
+        </section>
+        <section id="aducation" class="section aducation">
+          <div class="container">
+            <h2 class="aducation__title title">Aducation</h2>
+            <a href="ttps://tusur.ru/en" class="aducation__link">
+              Tomsk State University of Control Systems and Radioelectronics
+            </a>
+          </div>
+        </section>
+        <section id="curses" class="section curses">
+          <div class="container">
+            <h2 class="curses__title title">Curses</h2>
+            <ul class="curses__list list">
+              <li class="curses__item">
+                &#x1F44D;
+                <a
+                  href="https://www.youtube.com/c/FreelancerLifeStyle"
+                  class="curces__link"
+                >
+                  FreelancerLifeStyle</a
+                >
+              </li>
+              <li class="curses__item">
+                &#x1F44D;
+                <a href="https://glo.academy" class="curces__link">
+                  GLO Academy</a
+                >
+              </li>
+              <li class="curses__item">
+                &#x1F44D;
+                <a href="https://learn.javascript.ru/" class="curces__link">
+                  Online javascript tutorial</a
+                >
+              </li>
+              <li class="curses__item">
+                &#x1F44D;
+                <a href="https://htmlacademy.ru" class="curces__link">
+                  htmlacademy</a
+                >
+              </li>
+              <li class="curses__item">
+                &#x1F44D;
+                <a href="https://academy.rubius.com/" class="curces__link">
+                  Rubius academy</a
+                >
+              </li>
+              <li class="curses__item">
+                &#x1F44D;
+                <a
+                  href="https://practicum.yandex.ru/profile/git-basics/"
+                  class="curces__link"
+                >
+                  Git-basics from Yandex practicum</a
+                >
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section id="progects" class="section progects">
+          <div class="container">
+            <h2 class="projects__title title">Projects</h2>
+            <ul class="projects__list">
+              <li>
+                <h3>
+                  <a
+                    class="projects__link"
+                    href="https://sarahandduck.github.io/Go-orona/"
+                  >
+                    View site GoCorona
+                  </a>
+                </h3>
+                <a href="https://sarahandduck.github.io/Go-orona/">
+                  <img src="./img/projects/GoCorona.png" alt="go-corona View"
+                /></a>
+              </li>
+              <li>
+                <h3>
+                  <a
+                    class="projects__link"
+                    href="https://sarahandduck.github.io/bank_app/"
+                  >
+                    View site BankApp
+                  </a>
+                </h3>
+                <p>befor login</p>
+                <a
+                  class="projects__link"
+                  href="https://sarahandduck.github.io/bank_app/"
+                >
+                  <img
+                    src="./img/projects/bank_app_login.png"
+                    alt="bank_app login View"
+                  />
+                </a>
+                <p>after login (use nickName: "ci" pin:1111)</p>
+                <a
+                  class="projects__link"
+                  href="https://sarahandduck.github.io/bank_app/"
+                >
+                  <img src="./img/projects/bank_app.png" alt="bank_app View" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="section languages">
+          <div class="container">
+            <h2 class="languages__title title">Languages</h2>
+            <ul class="languages__list list">
+              <li class="language__item">Russian - native speaker</li>
+              <li class="language__item">English - A2</li>
+            </ul>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <a href="https://rs.school/js/" class="logo">
+            <img
+              src="./img/rs_school_js.svg"
+              alt="rs school js logo"
+              height="30"
+            />
+          </a>
+          <p class="paragraph">© 2023 Ratkevich</p>
+          <a href="https://github.com/SarahAndDuck" class="github-link">
+            <svg
+              aria-hidden="true"
+              height="24"
+              viewBox="0 0 16 16"
+              version="1.1"
+              width="24"
+              data-view-component="true"
+            >
+              <path
+                d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
