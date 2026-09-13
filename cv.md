@@ -8,7 +8,7 @@
 - **Phone:** +7-952-163-0774
 - **Email:** ratkevirina@gmail.ru
 - **GitHub:** [SarahAndDuck](https://github.com/SarahAndDuck)
-- **Discord:** Irin (@SarahAndDuck)
+- **Discord:** Irin(@SarahAndDuck)
 
 ---
 
