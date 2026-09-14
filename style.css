@@ -9,6 +9,7 @@ body {
   padding: 10px;
 }
 
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -20,7 +21,7 @@ body {
   color: #f9f6f6;
   background-color: rgb(70, 62, 62);
 }
-
 .main {
   flex-grow: 1;
 }
+
